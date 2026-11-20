@@ -1,0 +1,91 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="QnkIg0MubOU4aTxFczbv">
+        <mxGraphModel dx="817" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="id-box" parent="1" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;spacingLeft=8;" value="Nama: Muhammad Dzikri Shiddiq Muttaqin | NIM: 2406087 | Kelas: TI-C | Bagian A (SIBEA)" vertex="1">
+                    <mxGeometry height="35" width="770" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="title-box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;align=center;" value="USE CASE SKENARIO — AJUKAN BEASISWA (SIBEA)" vertex="1">
+                    <mxGeometry height="35" width="770" x="40" y="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="lbl-nama" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;align=left;spacingLeft=8;fontSize=11;" value="Nama Use Case" vertex="1">
+                    <mxGeometry height="30" width="170" x="40" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="val-nama" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;fontSize=11;" value="Ajukan Beasiswa" vertex="1">
+                    <mxGeometry height="30" width="600" x="210" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="lbl-aktor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;align=left;spacingLeft=8;fontSize=11;" value="Aktor" vertex="1">
+                    <mxGeometry height="30" width="170" x="40" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="val-aktor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;fontSize=11;" value="Pemohon (Mahasiswa Baru dan Mahasiswa Lama)" vertex="1">
+                    <mxGeometry height="30" width="600" x="210" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="lbl-tujuan" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;align=left;spacingLeft=8;fontSize=11;" value="Tujuan" vertex="1">
+                    <mxGeometry height="35" width="170" x="40" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="val-tujuan" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;spacingRight=8;fontSize=11;" value="Mengajukan permohonan beasiswa kampus (Beasiswa Prestasi atau Beasiswa Kurang Mampu) yang masih dibuka dengan melampirkan berkas persyaratan sesuai status pemohon." vertex="1">
+                    <mxGeometry height="35" width="600" x="210" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="lbl-desc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;align=left;spacingLeft=8;fontSize=11;" value="Deskripsi" vertex="1">
+                    <mxGeometry height="50" width="170" x="40" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="val-desc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;spacingRight=8;fontSize=11;" value="Use case ini dijalankan ketika Pemohon (Mahasiswa Baru maupun Mahasiswa Lama) memilih beasiswa yang masih dibuka pendaftarannya, mengisi formulir, serta mengunggah berkas syarat khusus (bukti prestasi atau SKTM) dan berkas akademik (bukti kelulusan SMA atau transkrip nilai) hingga pengajuan tercatat berstatus Diajukan." vertex="1">
+                    <mxGeometry height="50" width="600" x="210" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="hdr-keg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;align=center;fontSize=11;" value="Kegiatan Aktor (Pemohon)" vertex="1">
+                    <mxGeometry height="30" width="385" x="40" y="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="hdr-res" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;align=center;fontSize=11;" value="Respon Sistem (SIBEA)" vertex="1">
+                    <mxGeometry height="30" width="385" x="425" y="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="sec-norm" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=11;align=left;spacingLeft=8;" value="SKENARIO NORMAL" vertex="1">
+                    <mxGeometry height="26" width="770" x="40" y="285" as="geometry"/>
+                </mxCell>
+                <mxCell id="n1-k" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="1. Memilih beasiswa yang masih dibuka dan menekan tombol &#39;Ajukan Beasiswa&#39;." vertex="1">
+                    <mxGeometry height="42" width="385" x="40" y="311" as="geometry"/>
+                </mxCell>
+                <mxCell id="n1-r" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="2. Menampilkan formulir pengajuan beasiswa sesuai jenis beasiswa dan status pemohon." vertex="1">
+                    <mxGeometry height="42" width="385" x="425" y="311" as="geometry"/>
+                </mxCell>
+                <mxCell id="n2-k" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="3. Mengisi data diri, mengunggah berkas syarat jenis beasiswa (bukti prestasi untuk Beasiswa Prestasi atau SKTM untuk Beasiswa Kurang Mampu) serta berkas status pemohon (bukti kelulusan SMA untuk Mahasiswa Baru atau transkrip nilai untuk Mahasiswa Lama), lalu menekan &#39;Kirim Pengajuan&#39;." vertex="1">
+                    <mxGeometry height="82" width="385" x="40" y="353" as="geometry"/>
+                </mxCell>
+                <mxCell id="n2-r" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="4. Menjalankan use case &lt;&lt;include&gt;&gt; Periksa Kelengkapan Berkas." vertex="1">
+                    <mxGeometry height="82" width="385" x="425" y="353" as="geometry"/>
+                </mxCell>
+                <mxCell id="n3-k" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="" vertex="1">
+                    <mxGeometry height="50" width="385" x="40" y="435" as="geometry"/>
+                </mxCell>
+                <mxCell id="n3-r" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="5. Berkas dinyatakan lengkap; sistem menyimpan data pengajuan ke database dengan status &#39;Diajukan&#39; dan menampilkan bukti pengajuan." vertex="1">
+                    <mxGeometry height="50" width="385" x="425" y="435" as="geometry"/>
+                </mxCell>
+                <mxCell id="sec-alt" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=11;align=left;spacingLeft=8;" value="SKENARIO ALTERNATIVE" vertex="1">
+                    <mxGeometry height="26" width="770" x="40" y="485" as="geometry"/>
+                </mxCell>
+                <mxCell id="a1-k" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="6. (Cabang dari langkah 4: Berkas tidak lengkap) Memperbaiki dan mengunggah ulang berkas persyaratan yang masih kurang, lalu menekan &#39;Kirim Pengajuan&#39;." vertex="1">
+                    <mxGeometry height="68" width="385" x="40" y="511" as="geometry"/>
+                </mxCell>
+                <mxCell id="a1-r" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="7. Sistem menolak penyimpanan sementara, menampilkan notifikasi berkas yang belum lengkap, dan setelah diunggah ulang kembali ke langkah 4." vertex="1">
+                    <mxGeometry height="68" width="385" x="425" y="511" as="geometry"/>
+                </mxCell>
+                <mxCell id="a2-k" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="8. (Cabang dari langkah 1: Batas akhir pendaftaran beasiswa telah lewat) Memilih periode/jenis beasiswa lain yang masih dibuka." vertex="1">
+                    <mxGeometry height="58" width="385" x="40" y="579" as="geometry"/>
+                </mxCell>
+                <mxCell id="a2-r" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="9. Sistem menampilkan pesan bahwa pendaftaran beasiswa telah ditutup dan menonaktifkan tombol pengajuan." vertex="1">
+                    <mxGeometry height="58" width="385" x="425" y="579" as="geometry"/>
+                </mxCell>
+                <mxCell id="sec-end" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=11;align=left;spacingLeft=8;" value="SKENARIO AKHIR" vertex="1">
+                    <mxGeometry height="26" width="770" x="40" y="637" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1-k" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="10. Melihat nomor registrasi pengajuan dan keluar dari halaman pengajuan." vertex="1">
+                    <mxGeometry height="52" width="385" x="40" y="663" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1-r" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;verticalAlign=top;spacing=6;fontSize=11;" value="11. Data pengajuan tersimpan permanen di sistem dengan status &#39;Diajukan&#39; dan siap diverifikasi oleh Petugas Kemahasiswaan." vertex="1">
+                    <mxGeometry height="52" width="385" x="425" y="663" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

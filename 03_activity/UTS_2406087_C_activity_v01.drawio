@@ -1,0 +1,186 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="QnkIg0MubOU4aTxFczbv">
+        <mxGraphModel dx="916" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="id-box" parent="1" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;spacingLeft=8;" value="Nama: Muhammad Dzikri Shiddiq Muttaqin | NIM: 2406087 | Kelas: TI-C | Bagian A (SIBEA)" vertex="1">
+                    <mxGeometry height="35" width="800" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="title-box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;align=center;" value="ACTIVITY DIAGRAM — USE CASE AJUKAN BEASISWA (SIBEA)" vertex="1">
+                    <mxGeometry height="35" width="800" x="40" y="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="pool" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=0;horizontalStack=1;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#333333;" value="" vertex="1">
+                    <mxGeometry height="980" width="800" x="40" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="lane-actor" parent="pool" style="swimlane;html=1;startSize=35;horizontal=1;fontStyle=1;fontSize=12;" value="Pemohon (Mahasiswa Baru / Mahasiswa Lama)" vertex="1">
+                    <mxGeometry height="980" width="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="start-node" parent="lane-actor" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="200" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="act-pilih" parent="lane-actor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Memilih beasiswa dibuka &amp; klik &#39;Ajukan Beasiswa&#39;" vertex="1">
+                    <mxGeometry height="45" width="200" x="115" y="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="act-isi" parent="lane-actor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Mengisi formulir pengajuan beasiswa" vertex="1">
+                    <mxGeometry height="40" width="200" x="115" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="dec-jenis" parent="lane-actor" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="46" width="46" x="192" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="act-prestasi" parent="lane-actor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Mengunggah Bukti Prestasi" vertex="1">
+                    <mxGeometry height="42" width="160" x="25" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="act-sktm" parent="lane-actor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Mengunggah Surat Keterangan Tidak Mampu (SKTM)" vertex="1">
+                    <mxGeometry height="42" width="175" x="235" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="mrg-jenis" parent="lane-actor" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="40" width="40" x="195" y="395" as="geometry"/>
+                </mxCell>
+                <mxCell id="dec-status" parent="lane-actor" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="46" width="46" x="192" y="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="act-maba" parent="lane-actor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Melampirkan Bukti Kelulusan SMA" vertex="1">
+                    <mxGeometry height="42" width="160" x="25" y="535" as="geometry"/>
+                </mxCell>
+                <mxCell id="act-mala" parent="lane-actor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Melampirkan Transkrip Nilai" vertex="1">
+                    <mxGeometry height="42" width="165" x="240" y="535" as="geometry"/>
+                </mxCell>
+                <mxCell id="mrg-status" parent="lane-actor" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="40" width="40" x="195" y="605" as="geometry"/>
+                </mxCell>
+                <mxCell id="act-kirim" parent="lane-actor" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Menekan tombol &#39;Kirim Pengajuan&#39;" vertex="1">
+                    <mxGeometry height="42" width="200" x="115" y="675" as="geometry"/>
+                </mxCell>
+                <mxCell id="t1" edge="1" parent="lane-actor" source="start-node" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act-pilih">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t4" edge="1" parent="lane-actor" source="act-isi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="dec-jenis">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t5a" edge="1" parent="lane-actor" source="dec-jenis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontSize=10;" target="act-prestasi" value="[Beasiswa Prestasi]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="105" y="273"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t5b" edge="1" parent="lane-actor" source="dec-jenis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontSize=10;" target="act-sktm" value="[Beasiswa Kurang Mampu]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="322" y="273"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t6a" edge="1" parent="lane-actor" source="act-prestasi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="mrg-jenis">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="105" y="415"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t6b" edge="1" parent="lane-actor" source="act-sktm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="mrg-jenis">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="322" y="415"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t7" edge="1" parent="lane-actor" source="mrg-jenis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="dec-status">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t8a" edge="1" parent="lane-actor" source="dec-status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontSize=10;" target="act-maba" value="[Mahasiswa Baru]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="105" y="483"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t8b" edge="1" parent="lane-actor" source="dec-status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontSize=10;" target="act-mala" value="[Mahasiswa Lama]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="322" y="483"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t9a" edge="1" parent="lane-actor" source="act-maba" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="mrg-status">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="105" y="625"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t9b" edge="1" parent="lane-actor" source="act-mala" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="mrg-status">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="322" y="625"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t10" edge="1" parent="lane-actor" source="mrg-status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act-kirim">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="lane-system" parent="pool" style="swimlane;html=1;startSize=35;horizontal=1;fillColor=#f5f5f5;strokeColor=#333333;fontStyle=1;fontSize=12;" value="Sistem SIBEA" vertex="1">
+                    <mxGeometry height="980" width="370" x="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys-form" parent="lane-system" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Menampilkan formulir pengajuan beasiswa" vertex="1">
+                    <mxGeometry height="45" width="190" x="90" y="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys-cek" parent="lane-system" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;fontStyle=1;" value="Periksa Kelengkapan Berkas&#xa;(&lt;&lt;include&gt;&gt;)" vertex="1">
+                    <mxGeometry height="48" width="200" x="140" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="dec-lengkap" parent="lane-system" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="46" width="46" x="260" y="719" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zlipr3Xyg9hwDCYeWODs-1" edge="1" parent="lane-system" source="sys-err" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="772.698795180723" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sys-err" parent="lane-system" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=10;" value="Menampilkan notifikasi berkas tidak lengkap" vertex="1">
+                    <mxGeometry height="46" width="120" x="15" y="750" as="geometry"/>
+                </mxCell>
+                <mxCell id="sys-save" parent="lane-system" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fontSize=11;" value="Menyimpan pengajuan dengan status &#39;Diajukan&#39; &amp; menampilkan bukti" vertex="1">
+                    <mxGeometry height="50" width="210" x="120" y="830" as="geometry"/>
+                </mxCell>
+                <mxCell id="end-node" parent="lane-system" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="260" y="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="t12" edge="1" parent="lane-system" source="sys-cek" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="dec-lengkap">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t13a" edge="1" parent="lane-system" source="dec-lengkap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontSize=10;fillColor=#ffe6cc;strokeColor=#000000;" target="sys-err" value="[Tidak Lengkap]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t13b" edge="1" parent="lane-system" source="dec-lengkap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;fontSize=10;" target="sys-save" value="[Lengkap]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t14" edge="1" parent="lane-system" source="sys-save" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="end-node">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2" edge="1" parent="pool" source="act-pilih" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="sys-form">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t3" edge="1" parent="pool" source="sys-form" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act-isi">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="615" y="168"/>
+                            <mxPoint x="215" y="168"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t11" edge="1" parent="pool" source="act-kirim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="sys-cek">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t13-back" edge="1" parent="pool" source="sys-err" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;" target="act-isi">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="415" y="773"/>
+                            <mxPoint x="415" y="205"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
